@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+}
+
+.boxes {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.insideBox {
+    background-color: rgba(60, 59, 59, 0.4);
+    backdrop-filter: blur(3px);
+    outline: black solid;
+    border-radius: 4px;
+    padding-bottom: 48px;
+    width: 90%;
+}
+
+.banner {
+    margin-top: 100px;
+}
+
+.header {
+    background-color: #181818;
+}
+
+.backdrop {
+    background-image: url(/public/images/test2.png);
+    background-repeat: repeat-y;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgb(25, 25, 25, 0.76);
+    padding-top: 100px;
+}
+
+.bannerBox {
+    display: flex;
+}
+
+.face {
+    width: 35%;
+}
+
+.apexcharts-legend-text {
+    color: #ffffff !important;
+}
