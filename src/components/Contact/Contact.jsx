@@ -1,4 +1,4 @@
-import { Box, Typography, TextField } from "@mui/material";
+import { Box, Typography, TextField, Button } from "@mui/material";
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 
@@ -10,7 +10,10 @@ function Contact() {
                     <Typography className="header" variant="h3">
                         /contactMe
                     </Typography>
-                    <Typography variant="subtitle1">
+                    <Typography
+                        variant="subtitle1"
+                        sx={{ textAlign: "center", marginTop: "10px" }}
+                    >
                         Trying to get in touch?
                     </Typography>
                     <Box
@@ -28,7 +31,7 @@ function Contact() {
                                     m: 1,
                                     width: "100%",
                                 },
-                                width: "80%",
+                                width: "90%",
                                 maxWidth: 600,
                             }}
                             noValidate
@@ -59,6 +62,19 @@ function Contact() {
                                     variant="filled"
                                 />
                             </div>
+                            <Button
+                                variant="outlined"
+                                href="/"
+                                sx={{
+                                    marginTop: "10px",
+                                    textTransform: "none",
+                                    color: "#dcdcaa",
+                                    alignSelf: "left",
+                                }}
+                            >
+                                .submit
+                                <span style={{ color: "#ffd710" }}>()</span>
+                            </Button>
                         </Box>
                     </Box>
                 </Box>

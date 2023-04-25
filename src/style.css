@@ -31,10 +31,14 @@ body {
     background-attachment: fixed;
     background-color: rgb(25, 25, 25, 0.76);
     padding-top: 100px;
+    background-position: center;
+    background-size: cover;
 }
 
 .bannerBox {
     display: flex;
+    padding-bottom: 0px;
+
 }
 
 .face {
@@ -44,3 +48,15 @@ body {
 .apexcharts-legend-text {
     color: #ffffff !important;
 }
+
+.resume .MuiCardHeader-title{
+    color: #ffffff;
+}
+
+.resume .MuiCardHeader-subheader{
+    color: #da70c5;
+}
+
+.MuiCardContent-root ul li::marker {
+    color: #f1d700;
+  }

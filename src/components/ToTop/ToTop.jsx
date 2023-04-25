@@ -16,7 +16,7 @@ function ScrollTop(props) {
 
         if (anchor) {
             anchor.scrollIntoView({
-                block: "center",
+                block: "start",
             });
         }
     };

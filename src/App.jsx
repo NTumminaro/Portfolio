@@ -10,8 +10,7 @@ import ToTop from "./components/ToTop/ToTop";
 
 function App() {
     return (
-        <Box className="backdrop">
-            {" "}
+        <Box id="home" className="backdrop">
             <Header />
             <Banner />
             <Expertise />

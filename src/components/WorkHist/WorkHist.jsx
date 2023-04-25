@@ -7,6 +7,7 @@ import {
     CardContent,
     Collapse,
     IconButton,
+    Typography,
 } from "@mui/material";
 
 function WorkHist({ job }) {
@@ -26,9 +27,10 @@ function WorkHist({ job }) {
     const handleExpandClick = () => {
         setExpanded(!expanded);
     };
+
     return (
         <Card sx={{ marginY: "10px", width: "100%" }}>
-            <CardHeader
+            <CardHeader className="resume"
                 title={job.title}
                 subheader={job.date}
                 action={
@@ -46,6 +48,7 @@ function WorkHist({ job }) {
             />
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
+                    <Typography variant="h6">{job.site} ({job.location})</Typography>
                     <ul>
                         {job.duties.map((duty) => (
                             <li style={{ maxWidth: "100%" }} key={duty}>

@@ -3,13 +3,15 @@ import Typewriter from "typewriter-effect";
 
 function Banner() {
     return (
-        <Box id="home" align="center">
+        <Box align="center">
             <Box className="insideBox bannerBox">
                 <img
                     className="face"
                     src="images/Nick Cropped 2.png"
                     alt="Me"
+                    
                 />
+                
                 <Card
                     sx={{
                         zIndex: -1,
@@ -17,8 +19,13 @@ function Banner() {
                         width: "100%",
                         alignSelf: "center",
                         textAlign: "left",
-                    }}
+                        position: "relative",
+                        right: "7%",
+                        marginTop: "19%",
+                        marginRight: "-7%"
+            }}
                 >
+                    
                     <Typography
                         variant="h1"
                         fontSize={"4vw"}
@@ -37,22 +44,22 @@ function Banner() {
                             options={{ cursor: "_" }}
                             onInit={(typewriter) => {
                                 typewriter
-                                    .changeDelay(30)
+                                    .changeDelay(25)
                                     .changeDeleteSpeed(20)
                                     .typeString("$ A pretty Cool Dude")
-                                    .pauseFor(800)
+                                    .pauseFor(600)
                                     .deleteChars(9)
                                     .typeString("Neat Guy")
-                                    .pauseFor(800)
+                                    .pauseFor(600)
                                     .deleteChars(15)
                                     .typeString("Hard Worker")
-                                    .pauseFor(800)
+                                    .pauseFor(600)
                                     .deleteChars(11)
                                     .typeString("Twitch Streamer")
-                                    .pauseFor(800)
+                                    .pauseFor(400)
                                     .deleteChars(15)
                                     .typeString("Cake Decorator?")
-                                    .pauseFor(600)
+                                    .pauseFor(400)
                                     .deleteChars(15)
                                     .typeString("Friend...?")
                                     .pauseFor(300)
@@ -73,7 +80,7 @@ function Banner() {
                                     .typeString("fraid of heights?")
                                     .pauseFor(150)
                                     .deleteChars(17)
-                                    .changeDelay(150)
+                                    .changeDelay(60)
                                     .typeString(" ...")
                                     .pauseFor(1000)
                                     .changeDeleteSpeed(40)

@@ -74,6 +74,7 @@ function Expertise() {
                                     textAlign={"left"}
                                     padding={2}
                                     alignContent={"center"}
+                                    color={"#fff"}
                                 >
                                     Hi! I'm{" "}
                                     <span style={{ color: "#4ec995" }}>
