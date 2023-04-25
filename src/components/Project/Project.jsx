@@ -13,25 +13,25 @@ const projects = [
     {
         title: "AC Golden Rod Pro",
         subtitle: "React / Vite",
-        img: "/images/AC Golden Rod Pro.png",
+        img: "images/AC Golden Rod Pro.png",
         link: "https://github.com/NTumminaro/ACGC-Golden-Rod-Pro",
     },
     {
         title: "Sum of Best",
         subtitle: "Sequalize / Express",
-        img: "/images/Sum of Best.png",
+        img: "images/Sum of Best.png",
         link: "https://github.com/NTumminaro/Sum-Of-Best",
     },
     {
         title: "Karaoke Dokie",
         subtitle: "jQuery",
-        img: "/images/Karaoke Dokie.png",
+        img: "images/Karaoke Dokie.png",
         link: "https://charles-ram.github.io/karaoke-dokie-project/",
     },
     {
         title: "AC Fish Tracker",
         subtitle: "Lua",
-        img: "/images/AC Fish Tracker.png",
+        img: "images/AC Fish Tracker.png",
         link: "https://github.com/NTumminaro/AC-fish-tracker-package",
     },
 ];
