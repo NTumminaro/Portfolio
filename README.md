@@ -11,4 +11,4 @@ This is the repository for my Portfolio! The deployed site can be visited from t
 
 ## Screenshots
 
-![Screenshot](/public/images/screenshot1.png)
+![Screenshot](/public/images/screenshot1.jpg)
