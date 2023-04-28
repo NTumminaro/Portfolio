@@ -19,11 +19,11 @@ const theme = createTheme({
             color: "#3f9cd6",
         },
         h5: {
-            color: "#4ec995"
+            color: "#4ec995",
         },
         h6: {
-            color: "#3f9cd6"
-        }
+            color: "#3f9cd6",
+        },
     },
 });
 
