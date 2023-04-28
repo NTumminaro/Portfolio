@@ -38,7 +38,6 @@ body {
 .bannerBox {
     display: flex;
     padding-bottom: 0px;
-
 }
 
 .face {
@@ -49,14 +48,14 @@ body {
     color: #ffffff !important;
 }
 
-.resume .MuiCardHeader-title{
+.resume .MuiCardHeader-title {
     color: #ffffff;
 }
 
-.resume .MuiCardHeader-subheader{
+.resume .MuiCardHeader-subheader {
     color: #da70c5;
 }
 
 .MuiCardContent-root ul li::marker {
     color: #f1d700;
-  }
+}

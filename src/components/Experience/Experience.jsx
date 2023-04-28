@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Tooltip, Typography } from "@mui/material";
 import WorkHist from "../WorkHist/WorkHist";
 import { Slide } from "react-awesome-reveal";
 
@@ -58,9 +58,11 @@ function Experience() {
         <Slide triggerOnce={true} duration={1500}>
             <Box className="boxes" id="experience" align="center">
                 <Box className="insideBox" align="center">
+                    {/* <Tooltip title="Resume.pdf" arrow> */}
                     <Typography className="header" variant="h3">
                         /experience
                     </Typography>
+                    {/* </Tooltip> */}
                     <Box
                         sx={{
                             display: "flex",
