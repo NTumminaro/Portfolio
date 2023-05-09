@@ -15,7 +15,7 @@ function Footer() {
                 <Button href="https://www.youtube.com/@misterstealyourgil/featured">
                     <YouTubeIcon style={{ color: "#ff0000" }} />
                 </Button>
-                <Button href="https://www.linkedin.com/in/nicholas-tumminaro-ab0a82238/">
+                <Button href="https://www.linkedin.com/in/nicholas-tumminaro/">
                     <LinkedInIcon style={{ color: "#0a66c2" }} />
                 </Button>
                 <Button href="https://www.twitch.tv/misterstealyourgil">
