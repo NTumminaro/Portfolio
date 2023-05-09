@@ -96,7 +96,7 @@ function Expertise() {
                                     </span>{" "}
                                     I focus on{" "}
                                     <span style={{ color: "#34b5ff" }}>
-                                        clean and efficent code,
+                                        clean and efficient code,
                                     </span>{" "}
                                     while simultaneously striving for a{" "}
                                     <span style={{ color: "#d16969" }}>
