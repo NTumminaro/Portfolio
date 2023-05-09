@@ -3,7 +3,7 @@ import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import ReactApexChart from "react-apexcharts";
 import { Slide } from "react-awesome-reveal";
 
-const series = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
+const series = [100, 90, 80, 70, 60, 50, 40, 30, 30, 30, 30, 20, 20, 10];
 
 const options = {
     labels: [
@@ -14,7 +14,11 @@ const options = {
         "HTML",
         "Vite",
         "SQL",
+        "Express",
         "MongoDB",
+        "Apollo",
+        "GraphQL",
+        "MUI",
         "Lua",
         "Python",
     ],

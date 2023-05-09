@@ -62,9 +62,16 @@ function Contact() {
                                     variant="filled"
                                 />
                             </div>
+                            <Typography
+                                variant="subtitle1"
+                                sx={{ textAlign: "center", marginTop: "10px" }}
+                            >
+                                (Contact form is currenty disabled due to email spam)
+                            </Typography>
                             <Button
                                 variant="outlined"
                                 href="/"
+                                disabled
                                 sx={{
                                     marginTop: "10px",
                                     textTransform: "none",
